@@ -22,11 +22,11 @@ MCP solves this by exposing **only approved tools** through a controlled interfa
 ## Architecture
 
 Ollama (qwen2.5:7b)
-↓
+->
 ollmcp (MCP client)
-↓
+->
 MCP Server (Python / FastMCP)
-↓
+->
 Custom Tools (add, echo, etc.)
 
 
